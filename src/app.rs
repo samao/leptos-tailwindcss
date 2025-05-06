@@ -38,7 +38,9 @@ pub fn App() -> impl IntoView {
             <main>
                 <header>
                     <nav>
-                        <button class="bg-red-500 rounded text-white px-2 py-2 hover:bg-blue-500">GOOD HEADER</button>
+                        <button class="bg-red-500 rounded text-white px-2 py-2 hover:bg-blue-500">
+                            GOOD HEADER
+                        </button>
                     </nav>
                 </header>
                 <Routes fallback=|| "Page not found.".into_view()>
