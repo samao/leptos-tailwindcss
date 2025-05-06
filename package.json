@@ -1,0 +1,17 @@
+{
+  "name": "leptos-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./style/input.css -o ./style/output.css",
+    "dev": "tailwindcss -i ./style/input.css -o ./style/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.5",
+    "@tailwindcss/cli": "^4.1.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
